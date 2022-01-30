@@ -10,7 +10,7 @@ In the following tutorial you learn
 
 ## Step 2
 
-In the beginning we show a heart symbol ``||basic.showIcon||``. SO we know the micro:bit is running.
+In the beginning we show a heart symbol ``||basic.showIcon||``. So we know the micro:bit is running.
 
 ```blocks
 basic.showIcon(IconNames.Heart)

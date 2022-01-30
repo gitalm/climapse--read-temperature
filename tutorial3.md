@@ -6,7 +6,6 @@ Im folgenden Tutorial lernst Du
 1. Sensorwerte an einen micro:bit zu senden
 2. Die Sensorwerte zu empfangen und aufbereiten
 
-
 ## Funkgruppe Empfänger
 
 Verwende nun den zweiten micro:bit und setze bei diesem ebenso die ``||radio:Funkgruppe||`` auf diesselbe Zahl, also *42*.

@@ -19,7 +19,7 @@ basic.showIcon(IconNames.Heart)
 ## Step 3
 
 Nous voulons d'abord afficher la température. 
-Alors nous utilisons ``||basic.zeige Text||`` den internen Sensorwert ``||input.Temperatur||`` 
+Alors nous utilisons ``||basic.zeige Text||`` la valeur interne du capteur  ``||input.Temperatur||`` 
 
 ```blocks
 basic.forever(function () {
@@ -29,9 +29,8 @@ basic.forever(function () {
 
 ## Step 4
 
-Im nächsten Schritt wollen wir die Temperatur an den PC übertragen 
-mit ``||serial.schreibe Wertepaar||``.
-Als Wertepaar wählen wir als Text *T in °C* und ``||input.Temperatur||``.
+Dans une prochaine étape, nous voulons faire transmettre la température à l'ordinateur avec ``||serial.schreibe Wertepaar||``.
+Comme couple de valeur, nous choisissons le texte *T en °C* et ``||input.Temperatur||``.
 
 ```blocks
 basic.forever(function () {
@@ -42,8 +41,8 @@ basic.forever(function () {
 
 ## Step 5
 
-Für bessere Werte ist es angebracht eine kurze Pause #
-zwischen dem Auslesen hinzuzufügen mit ``||basic.Pause||`` von 1 Sekunde, also 1000 Millisekunden.
+Pour avoir de meilleures valeurs, il est utile d'insérer une petite pause #
+en ajoutant ``||basic.Pause||`` d'une seconde, alors 1000 millisecondes.
 
 ```blocks
 basic.forever(function () {
@@ -55,7 +54,7 @@ basic.forever(function () {
 
 ## Step 6
 
-Lade nun den Code auf deinen micro:bit und öffne anschließend die *Konsole* um die Werte zu sehen.
+Charge maintenant le code sur ton micro:bit et ouvre ensuite la *console* pour voir les valeurs.
 
 
 * for PXT/microbit

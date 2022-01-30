@@ -4,14 +4,13 @@
 
 ### Climapse - Climate 🌍🌡️ changing over Time  ⏳️
 
-Im folgenden Tutorial lernst Du
-1. Die Temperatur auszulesen
-2. Die Temperatur am PC auszugeben und zu bearbeiten
+Dans ce tutoriel, tu vas apprendre à
+1. lire la température
+2. afficher et travailler avec la température sur ordinateur
 
 ## Step 2
 
-Zum Start lassen wir einfach Herzsymbol ``||basic.montrer l'icône||`` einblenden, damit wir wissen,
-ob der Microbit läuft. 
+Pour commencer, nous affichons le symbole du cœur ``||basic.montrer l'icône||`` pour vérifier que le microbit fonctionne. 
 
 ```blocks
 basic.showIcon(IconNames.Heart)
@@ -19,8 +18,8 @@ basic.showIcon(IconNames.Heart)
 
 ## Step 3
 
-Nun wollen wir als erstes die Temperatur anzeigen lassen. 
-Dazu laden wir ``||basic.zeige Text||`` den internen Sensorwert ``||input.Temperatur||`` 
+Nous voulons d'abord afficher la température. 
+Alors nous utilisons ``||basic.zeige Text||`` den internen Sensorwert ``||input.Temperatur||`` 
 
 ```blocks
 basic.forever(function () {

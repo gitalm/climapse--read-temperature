@@ -1,13 +1,22 @@
-# Remote Sensing - Part 1 Sending
-## Step 1
+### @activities 1
 
-### Climapse - Climate 🌍🌡️ changing over Time  ⏳️
+## Introduction
+
+### Introduction step
+
+# Remote Sensing
+
+** Climapse - Climate 🌍🌡️ changing over Time  ⏳️ **
 
 Im folgenden Tutorial lernst Du
-1. Sensorwerte an einen miccro:bit zu senden
+1. Sensorwerte an einen micro:bit zu senden
 2. Die Sensorwerte zu empfangen und aufbereiten
 
-## Step 2
+
+
+## Activity 1
+
+### Funkgruppe für Sender
 
 Zum Start lassen wir einfach Entensymbol ``||basic.showIcon||`` 
 einblenden, damit wir wissen,
@@ -21,7 +30,7 @@ radio.setGroup(42)
 basic.showIcon(IconNames.Duck)
 ```
 
-## Step 3
+### Sensorwert senden
 
 Der Wert des internen Tempertursensors ``||input:Temperatur||`` wird nun dauerhaft 
 als Wertepaar gesendet, mit dem Befehl ``||radio:sende Wertepaar||``. Das Wertepaar soll auswählen
@@ -33,7 +42,7 @@ basic.forever(function () {
 })
 ```
 
-## Step 4
+### Aktivität anzeigen Sender
 
 Mit einem blinkenden Diamanten ``||basic:zeige Symbol||`` kann man die Aktivität 
 des Sender überwachen. Zwischen einer Sendepause ``||basic:Pause||`` von 1 Sekunde wird 
@@ -45,5 +54,34 @@ basic.forever(function () {
     basic.showIcon(IconNames.Diamond)
     basic.pause(1000)
     basic.showIcon(IconNames.SmallDiamond)
+})
+```
+
+## Activity 2
+
+### Funkgruppe Empfänger
+
+Verwende nun den zweiten micro:bit und setze bei diesem ebenso die ``||radio:Funkgruppe||`` auf diesselbe Zahl, also *42*.
+Um Sender und Empfänger zu unterscheiden, kann man eine Schlange 🐍 ``||basic:zeige Symbol||`` anzeigen zum Start.
+
+```blocks
+radio.setGroup(42)
+basic.showIcon(IconNames.Snake)
+```
+
+### Variable erstellen
+
+Um die Werte zum Empfangen benötigt man eine Variable ``||variable:Variable||``. **Erstelle eine Variable** diese
+im Menü und nenne diese beispielsweise ``||variable:Temp||``.
+
+
+### Wertepaar empfangen
+
+Empfange nun das Wertepaar ``||radio:wenn Wertepaar empfangen||`` und ordne den Wert der Variablen **Temp** über ``||variable:setze Temp||``
+auf den empfangenen Wert ``||radio:value||``.
+
+```blocks
+radio.onReceivedValue(function (name, value) {
+    Temp = value
 })
 ```

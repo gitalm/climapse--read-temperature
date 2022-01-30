@@ -1,6 +1,10 @@
 
 > Diese Seite bei [https://gitalm.github.io/climapse--read-temperature/](https://gitalm.github.io/climapse--read-temperature/) öffnen
 
+## Tutorial
+
+* [tutorial](/turoial)
+
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.

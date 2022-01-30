@@ -30,7 +30,7 @@ basic.forever(function () {
 ## Step 4
 
 Dans une prochaine étape, nous voulons faire transmettre la température à l'ordinateur avec ``||serial.série écrire valeur||``.
-Comme couple de valeur, nous choisissons le texte *T en °C* et ``||input.Temperatur||``.
+Comme couple de valeur, nous choisissons le texte *T en °C* et ``||input.température||``.
 
 ```blocks
 basic.forever(function () {
@@ -42,7 +42,7 @@ basic.forever(function () {
 ## Step 5
 
 Pour avoir de meilleures valeurs, il est utile d'insérer une petite pause #
-en ajoutant ``||basic.Pause||`` d'une seconde, alors 1000 millisecondes.
+en ajoutant ``||basic.pause||`` d'une seconde, alors 1000 millisecondes.
 
 ```blocks
 basic.forever(function () {

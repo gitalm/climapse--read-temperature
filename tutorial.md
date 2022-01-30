@@ -1,8 +1,5 @@
 # My Tutorial
-### @activities true
-
-## Activity 1
-### Step 1
+## Step 1
 
 ### Climapse - Climate 🌍🌡️ changing over Time  ⏳️
 
@@ -10,7 +7,7 @@ Im folgenden Tutorial lernst Du
 1. Die Temperatur auszulesen
 2. Die Temperatur am PC auszugeben und zu bearbeiten
 
-### Step 2
+## Step 2
 
 Zum Start lassen wir einfach Herzsymbol ``||basic.showIcon||`` einblenden, damit wir wissen,
 ob der Microbit läuft. 
@@ -19,7 +16,7 @@ ob der Microbit läuft.
 basic.showIcon(IconNames.Heart)
 ```
 
-### Step 3
+## Step 3
 
 Nun wollen wir als erstes die Temperatur anzeigen lassen. 
 Dazu laden wir ``||basic.showString||`` den internen Sensorwert ``||input.temperature||`` 
@@ -30,7 +27,7 @@ basic.forever(function () {
 })
 ```
 
-### Step 4
+## Step 4
 
 Im nächsten Schritt wollen wir die Temperatur an den PC übertragen 
 mit ``||serial.writeValue||``.
@@ -43,7 +40,7 @@ basic.forever(function () {
 })
 ```
 
-### Step 5
+## Step 5
 
 Für bessere Werte ist es angebracht eine kurze Pause #
 zwischen dem Auslesen hinzuzufügen mit ``||basic.pause||`` von 1 Sekunde, also 1000 Millisekunden.
@@ -56,16 +53,9 @@ basic.forever(function () {
 })
 ```
 
-### Step 6
+## Step 6
 
 Lade nun den Code auf deinen micro:bit und öffne anschließend die *Konsole* um die Werte zu sehen.
-
-
-## Activity 2
-
-### Step 1
-
-Für dieses Tutorial benötigst du zwei micro:bits. Ziel ist es die Daten eines externen Datenloggers zu schicken und am PC auszuwerten.
 
 
 * for PXT/microbit

@@ -1,6 +1,8 @@
 # 📡 Remote Sensing - Sending
 
-** Climapse - Climate 🌍🌡️ changing over Time  ⏳️ **
+## Step 1
+
+### Climapse - Climate 🌍🌡️ changing over Time  ⏳️ 
 
 Im folgenden Tutorial lernst Du
 1. Sensorwerte an einen micro:bit zu senden

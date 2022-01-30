@@ -3,8 +3,8 @@
 
 ## Tutorial
 
-* Betrachte das gesamte [Tutorial](/tutorial)
-* Starte direkt dein [Tutorial](https://makecode.microbit.org/#tutorial:github:gitalm/climapse--read-temperature/tutorial)
+* Betrachte das gesamte [Tutorial](/tutorial).
+* Starte direkt dein [Tutorial](https://makecode.microbit.org/#tutorial:github:gitalm/climapse--read-temperature/tutorial) im Editor
 
 ## Als Erweiterung verwenden
 

@@ -19,7 +19,7 @@ basic.showIcon(IconNames.Heart)
 ## Step 3
 
 Nous voulons d'abord afficher la température. 
-Alors nous utilisons ``||basic.zeige Text||`` la valeur interne du capteur  ``||input.Temperatur||`` 
+Alors nous utilisons ``||basic.afficher texte||`` la valeur interne du capteur  ``||input.température||`` 
 
 ```blocks
 basic.forever(function () {
@@ -29,7 +29,7 @@ basic.forever(function () {
 
 ## Step 4
 
-Dans une prochaine étape, nous voulons faire transmettre la température à l'ordinateur avec ``||serial.schreibe Wertepaar||``.
+Dans une prochaine étape, nous voulons faire transmettre la température à l'ordinateur avec ``||serial.série écrire valeur||``.
 Comme couple de valeur, nous choisissons le texte *T en °C* et ``||input.Temperatur||``.
 
 ```blocks

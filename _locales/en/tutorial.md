@@ -58,5 +58,5 @@ basic.forever(function () {
 Download the code to your micro:bit and control after that the *console* to watch the values.
 
 
-* for PXT/microbit
+ <!-- for PXT/microbit -->
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>

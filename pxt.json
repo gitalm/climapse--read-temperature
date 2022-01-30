@@ -15,7 +15,8 @@
         "_locales/de/tutorial.md",
         "_locales/en/tutorial.md",
         "_locales/fr/tutorial.md",
-        "_locales/it/tutorial.md"
+        "_locales/it/tutorial.md",
+        "tutorial3.md"
     ],
     "testFiles": [
         "test.ts"

@@ -19,7 +19,7 @@ basic.showIcon(IconNames.Heart)
 ## Step 3
 
 Nun wollen wir als erstes die Temperatur anzeigen lassen. 
-Dazu laden wir ``||basic.showString||`` den internen Sensorwert ``||input.temperature||`` 
+Dazu laden wir ``||basic.showString||`` den internen Sensorwert ``||input.temperature||`` in das dauerhaft ausgeführte Programm.
 
 ```blocks
 basic.forever(function () {

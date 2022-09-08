@@ -18,7 +18,8 @@
         "_locales/it/tutorial.md",
         "tutorial3.md",
         "main.py",
-        "_locales/en/tutorial2.md"
+        "_locales/en/tutorial2.md",
+        "_locales/en/tutorial3.md"
     ],
     "testFiles": [
         "test.ts"

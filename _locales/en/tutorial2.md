@@ -1,3 +1,5 @@
+# _locales/en/tutorial2
+
 # 📡 Remote Sensing - Sending
 
 ## Step 1

@@ -4,29 +4,25 @@
 
 ### Climapse - Climate 🌍🌡️ changing over Time  ⏳️ 
 
-Im folgenden Tutorial lernst Du
-1. Sensorwerte an einen micro:bit zu senden
-2. Die Sensorwerte zu empfangen und aufbereiten
+In the following tutorial you learn
+1. send values from the internal sensors of the micro:bit
+2. receive the values and let your PC draw a diagram 📈
 
-## Funkgruppe für Sender
+## Radio group for the transmitter
 
-Zum Start lassen wir einfach Entensymbol ``||basic.showIcon||`` 
-einblenden, damit wir wissen,
-ob der Microbit läuft. 
-Zusätzlich müssen wir 
-eine ``||radio:Setze Funkgruppe||``, beispielsweise *42* auswählen. 
-In dieser muss dann auch der empfangende micro:bit sein.
+In the beginning we use ``||basic.showIcon||`` 
+to indicate that the micro:bit is running. 
+Additionally we use ``||radio:setGroup||`` eg. *42*. 
+The receiver must use the same group.
 
 ```blocks
 radio.setGroup(42)
 basic.showIcon(IconNames.Duck)
 ```
 
-## Sensorwert senden
+## Send sensor value
 
-Der Wert des internen Tempertursensors ``||input:Temperatur||`` wird nun dauerhaft 
-als Wertepaar gesendet, mit dem Befehl ``||radio:sende Wertepaar||``. Das Wertepaar soll auswählen
-der Abkürzung *T* für Temperatur bestehen und dem Wert der ``||input:Temperatur||``.
+The value from the internal sensor ``||input:temperature||`` will be now continously send by ``||radio:sendValue||``. We name it *T* for temperature and use the value ``||input:temperature||``.
 
 ```blocks
 basic.forever(function () {
@@ -34,11 +30,9 @@ basic.forever(function () {
 })
 ```
 
-## Aktivität anzeigen Sender
+## Show activity
 
-Mit einem blinkenden Diamanten ``||basic:zeige Symbol||`` kann man die Aktivität 
-des Sender überwachen. Zwischen einer Sendepause ``||basic:Pause||`` von 1 Sekunde wird 
-der kleine und große Diamant abwechselnd dargestellt.
+A blinking diamond ``||basic:showIcon||`` is indicating the active microcontroller. The sensor need a time out ``||basic:pause||`` of roughly a second and the diamond is indicating the active status from the sender.
 
 ```blocks
 basic.forever(function () {

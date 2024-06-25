@@ -7,7 +7,7 @@
     * 👀 Betrachte das gesamte [Tutorial Senden 📡>>](tutorial2).
     * ▶ Starte direkt dein [Tutorial Senden 📡>>](https://makecode.microbit.org/#tutorial:github:gitalm/climapse--read-temperature/tutorial2) im Editor
     * 👀 Betrachte das gesamte [Tutorial Empfangen >>📡](tutorial3).
-    * ▶ Starte direkt dein [Tutorial Empfangen >>📡](https://makecode.microbit.org/#tutorial:github:gitalm/climapse--read-temperature/tutorial2) im Editor
+    * ▶ Starte direkt dein [Tutorial Empfangen >>📡](https://makecode.microbit.org/#tutorial:github:gitalm/climapse--read-temperature/tutorial3) im Editor
 
 ## Als Erweiterung verwenden
 
